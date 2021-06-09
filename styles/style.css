@@ -923,7 +923,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(/src/img/offer/01.png);
+  background: url(img/offer/01.png);
   padding: 7.2rem 14.7rem 7.2rem 5.7rem;
   background-size: cover;
   background-repeat: no-repeat;
