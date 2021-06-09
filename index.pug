@@ -1,0 +1,151 @@
+- var pageTitle = 'Online TV' 
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style 
+        include styles/style.css
+        include styles/normalize.css
+  body
+    include modules/header 
+    
+    section.section-banner
+      .container
+        .banner 
+            h1.banner-title Zack Snyder's Justice League
+            .banner-info 
+              span.banner-info__year 2021
+              span.banner-info__age 18+
+              span.banner-info__time 4h 2min
+              span.banner-info__rating 8.8
+            p.banner-text Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.
+            .banner-control 
+              button.banner-control__btn.banner-control__btn-main Watch
+              button.banner-control__btn.banner-control__btn-more More information
+    section.section 
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Trending TV Shows ►
+        .movies
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_1.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_2.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_3.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_4.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_5.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/1_6.png", alt="1_1").movies__img
+    section.section 
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Trending Movies ►
+        .movies
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_1.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_2.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_3.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_4.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_5.png", alt="1_1").movies__img
+          .movies-item
+            a(href="#").movies__link
+              img(src="/src/img/posters/2_6.png", alt="1_1").movies__img
+        button.section__btn See more    
+    section.section 
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Popular Genres ►  
+        .genres 
+          .genres-item.genres-item_romance  
+            .genres-icon
+              img(src="/src/img/genres/romance.svg", alt="romance").genres__image
+            h3.genres__title Romance
+          .genres-item.genres-item_drama 
+            .genres-icon  
+              img(src="/src/img/genres/dramma.svg", alt="drama").genres__image
+            h3.genres__title Drama
+          .genres-item.genres-item_historycal  
+            .genres-icon
+              img(src="/src/img/genres/historycal.svg", alt="historycal").genres__image
+            h3.genres__title Historical
+          .genres-item.genres-item_action 
+            .genres-icon
+              img(src="/src/img/genres/action.svg", alt="action").genres__image
+            h3.genres__title Action
+          .genres-item.genres-item_sci-fi 
+            .genres-icon
+              img(src="/src/img/genres/sci-fi.svg", alt="sci-fi").genres__image
+            h3.genres__title Sci-fi
+          .genres-item.genres-item_horror  
+            .genres-icon
+              img(src="/src/img/genres/horror.svg", alt="horror").genres__image
+            h3.genres__title Horror
+          .genres-item.genres-item_comedy 
+            .genres-icon
+              img(src="/src/img/genres/comedy.svg", alt="comedy").genres__image
+            h3.genres__title Comedy
+          .genres-item.genres-item_documental 
+            .genres-icon
+              img(src="/src/img/genres/documental.svg", alt="documental").genres__image
+            h3.genres__title Documentary
+    section.section 
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Popular Actors & Directors ►  
+        .actors 
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/1.png", alt="1").actors__img
+            h3.actors__title Samantha Bowen
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/2.png", alt="1").actors__img
+            h3.actors__title Rhys Birch
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/3.png", alt="1").actors__img
+            h3.actors__title James Holloway
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/4.png", alt="1").actors__img
+            h3.actors__title Joshua Walton
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/5.png", alt="1").actors__img
+            h3.actors__title Patrick Elliott
+          .actors-item 
+            a(href="#").actors__link
+              img(src="/src/img/actors/6.png", alt="1").actors__img
+            h3.actors__title Morgan O'Neill
+    section.section 
+      .container 
+        .marketing 
+          .marketing-item 
+            a(href="#").marketing__link
+              img(src="/src/img/marketing1.png", alt="")
+    section.section 
+      .container 
+        .offer 
+          h2.offer__title Are You New Here ? Don’t&nbsp;wait, Register Now. 
+          button.offer__btn Register Now
+
+    include modules/footer
